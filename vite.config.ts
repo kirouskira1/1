@@ -5,8 +5,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/kira6/',
-  build: { outDir: 'docs' },
+  base: '/1/',
+  build: { outDir: 'dist' },
   server: {
     host: "localhost",
     port: 8080,
